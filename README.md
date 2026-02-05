@@ -20,7 +20,6 @@ npm install
 npm run dev
 # Server runs on http://localhost:5000
 ```
-*Note: This uses an in-memory data store. Data resets when the server restarts.*
 
 ### 2. Frontend Setup
 The beautiful interface.
@@ -31,6 +30,19 @@ npm install
 npm run dev
 # App runs on http://localhost:3000
 ```
+
+### 3. Docker Setup (Recommended)
+Run the entire application with a single command.
+
+```bash
+# Build and start services
+docker compose up --build
+
+# Run in background
+docker compose up -d
+```
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:5000`
 
 ---
 
