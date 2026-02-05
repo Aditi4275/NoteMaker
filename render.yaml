@@ -16,6 +16,8 @@ services:
     rootDir: frontend
     envVars:
       - key: NEXT_PUBLIC_API_BASE_URL
-        fromService: notes-bookmarks-backend
-        property: url
+        fromService:
+          type: web
+          name: notes-bookmarks-backend
+          property: url
     plan: free
