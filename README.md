@@ -1,4 +1,4 @@
-# 🎹 NoteMark: Personal Notes & Bookmarks Manager
+# 📝 NoteMark: Personal Notes & Bookmarks Manager
 
 > **"Where ideas meet organization."**
 
