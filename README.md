@@ -31,18 +31,8 @@ npm run dev
 # App runs on http://localhost:3000
 ```
 
-### 3. Docker Setup (Recommended)
-Run the entire application with a single command.
-
-```bash
-# Build and start services
-docker compose up --build
-
-# Run in background
-docker compose up -d
+# Server runs on http://localhost:5000
 ```
-- Frontend: `http://localhost:3000`
-- Backend: `http://localhost:5000`
 
 ---
 
