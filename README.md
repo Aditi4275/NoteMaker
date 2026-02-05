@@ -55,14 +55,14 @@ This project serves as a comprehensive demonstration of full-stack engineering p
 - `GET /me`: Retrieve the currently authenticated user's profile.
 
 ### Notes (`/api/notes`)
-- `GET /`: List all notes for the authenticated user.
+- `GET /`: List all notes for the authenticated user. Supports filtering: `?q=searchTerm&tags=tag1,tag2`
 - `POST /`: Create a new note (requires `title` and `content`).
 - `PUT /:id`: Update a note by ID.
 - `DELETE /:id`: Remove a note.
 
 ### Bookmarks (`/api/bookmarks`)
 - `POST /`: Save a new bookmark. **Feature**: Automatically scrapes the target URL to populate the bookmark title.
-- `GET /`: Retrieve all bookmarks.
+- `GET /`: Retrieve all bookmarks. Supports filtering: `?q=searchTerm&tags=tag1,tag2`
 - `PUT /:id`: Update bookmark details.
 - `DELETE /:id`: Delete a bookmark.
 
