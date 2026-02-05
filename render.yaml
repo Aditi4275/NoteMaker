@@ -19,5 +19,5 @@ services:
         fromService:
           type: web
           name: notes-bookmarks-backend
-          property: url
+          property: host
     plan: free
