@@ -31,11 +31,6 @@ npm run dev
 # App runs on http://localhost:3000
 ```
 
-# Server runs on http://localhost:5000
-```
-
----
-
 ## 🎯 Skills This Tests
 
 This project serves as a comprehensive demonstration of full-stack engineering proficiency:
@@ -47,7 +42,6 @@ This project serves as a comprehensive demonstration of full-stack engineering p
 *   **Clean Code & Structure**: organized backend (controllers, services, validators) and frontend (components, context, lib) to ensure maintainability.
 *   **Real-World Data Modeling**: Simulates a production database schema with distinct relationships between users, notes, and bookmarks.
 
----
 
 ## 📡 API Documentation
 
@@ -68,7 +62,6 @@ This project serves as a comprehensive demonstration of full-stack engineering p
 - `PUT /:id`: Update bookmark details.
 - `DELETE /:id`: Delete a bookmark.
 
----
 
 ## 🛠️ Architecture & Clean Code
 
@@ -86,7 +79,6 @@ The project follows a modular architecture to separate concerns and improve test
 - **`components/`**: Reusable UI elements (Forms, Cards, Navbar).
 - **`lib/`**: Utility functions and API clients (Axios instance with interceptors).
 
----
 
 ## ✨ Key Features
 
